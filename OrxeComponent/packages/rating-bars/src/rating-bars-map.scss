@@ -1,0 +1,18 @@
+:host {
+    --orxe-bar-shell-color: var(--tertiary);
+    --orxe-bar-shell-padding: 2px;
+    --orxe-bar-shell-margin-bottom: 2px;
+    --orxe-bar-shell-border-radius:50px;
+
+    --orxe-bar-progress-color: var(--primary);
+    --orxe-bar-progress-height:20px;
+
+    --orxe-bar-label-color: var(--tertiary);
+    --orxe-bar-label-font-family: var(--primary-font-family);
+
+    --orxe-progress-color-poor:red;
+    --orxe-progress-color-normal:orange;
+    --orxe-progress-color-good:yellow;
+    --orxe-progress-color-excellent:green;
+    --orxe-progress-color-awesome:darkgreen;
+}
