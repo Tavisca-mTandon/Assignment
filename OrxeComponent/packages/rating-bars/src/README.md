@@ -9,8 +9,8 @@
   ></orxe-rating-bars>
 
 # PROPERTIES
-    rating - Number >= 0
-    label
+    rating: Number >= 0. Responsible for color as well as aria label.
+    label: String for label on bottom left
     conversionRate - Rate of conversion (Used for rating / conversion Rate) ex: ( 75 / 10 ) = 7.5
     a11yLabel - Aria label for Screen Readers if not provide components creates it dynamically. ex: Bussiness 7.1 out of 10
 
@@ -33,4 +33,4 @@
     --orxe-progress-color-awesome:darkgreen;
     
 # ADDITIONAL INFO
-  
+    Test cases and story book yet to be added. (Under-progress)
