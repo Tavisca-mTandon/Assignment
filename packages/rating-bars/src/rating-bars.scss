@@ -11,12 +11,15 @@
         .rating-bar-progress {
             border-radius: var(--orxe-bar-shell-border-radius);
             height: var(--orxe-bar-progress-height);
+            max-width: 100%;
         }
     }
 
     .rating-bar-label {
         font-family: var(--orxe-bar-label-font-family);
         color: var(--orxe-bar-label-color);
+        font-weight: var(--orxe-bar-label-font-weight);
+        font-size: var(--orxe-bar-label-font-size);
         span:not(:first-child){
             float:right;
         }

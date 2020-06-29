@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-trailing-spaces */
 /* eslint-disable linebreak-style */
 import { html, customElement, LitElement, property, TemplateResult } from 'lit-element';
@@ -9,10 +10,10 @@ export default class OrxeRatingBars extends LitElement {
    * Implement `render` to define a template for button element.
    */
 
-  @property({type: Number})
+  @property({type: Number, reflect: true})
   rating = 0;
   
-  @property({type: String})
+  @property({type: String, reflect: true})
   label = "";
 
   @property({type: String})
@@ -70,6 +71,12 @@ export default class OrxeRatingBars extends LitElement {
       }
   }
 
+
+  attributeChangedCallback(name, oldVal, newVal) {
+    console.log('attribute change: ', name, newVal);
+    super.attributeChangedCallback(name, oldVal, newVal);
+  }
+  
   _handlea11yLabel() {
     let ariaLabel = '';
     if (this.a11yLabel) {
