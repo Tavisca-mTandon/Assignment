@@ -48,5 +48,6 @@
     },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
-  }
+  },
+  "dependencies": {}
 }

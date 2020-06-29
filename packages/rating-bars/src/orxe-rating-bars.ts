@@ -71,12 +71,10 @@ export default class OrxeRatingBars extends LitElement {
       }
   }
 
-
   attributeChangedCallback(name, oldVal, newVal) {
-    console.log('attribute change: ', name, newVal);
     super.attributeChangedCallback(name, oldVal, newVal);
   }
-  
+
   _handlea11yLabel() {
     let ariaLabel = '';
     if (this.a11yLabel) {
